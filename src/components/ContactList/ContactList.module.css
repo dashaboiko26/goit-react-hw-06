@@ -1,0 +1,40 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.empty {
+    padding: 10px;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.contactName {
+    font-weight: bold;
+    color: #333;
+
+}
+
+.contactNumber {
+    color: #555;
+}

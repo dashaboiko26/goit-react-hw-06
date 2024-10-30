@@ -1,0 +1,50 @@
+.contactCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.contactCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.number {
+    color: #555;
+    margin-right: 10px;
+}
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff4d4f;
+    transition: color 0.3s ease;
+
+}
+
+.btn:hover {
+    color: #d63031;
+}
+
+.icon {
+    margin-right: 5px;
+}
